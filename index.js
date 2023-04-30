@@ -1,3 +1,4 @@
+require("dotenv").config();
 require("./database/Todo");
 import express from 'express';
 import ConnectDB from './database/connection';
